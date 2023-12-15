@@ -24,7 +24,7 @@ body{
         flex-direction: row;
         justify-content: center;
         align-items: start;
-        background-image: url(./img/compuCode.jpg);
+        background-image: url(/compuCode.jpg);
         background-size: contain;
         background-repeat: repeat;
         padding: 5px 20px 0 10px;
