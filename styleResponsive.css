@@ -27,8 +27,8 @@ body{
         justify-content: center;
         align-items: start;
         background-image: url(/imgNavResponsive.jpg);
-        background-size: contain;
-        background-repeat: repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
         padding: 5px 20px 0 10px;
     }
     .btnNavSkills{
