@@ -15,6 +15,8 @@ body{
         "footer footer";
 }
     .ulNav{
+        z-index: 1;
+        text-shadow: black 5px 5px 2px
         grid-area: nav;
         text-align: center;
         width: 100%;
@@ -24,7 +26,7 @@ body{
         flex-direction: row;
         justify-content: center;
         align-items: start;
-        background-image: url(/compuCode.jpg);
+        background-image: url(/imgNavResponsive.jpg);
         background-size: contain;
         background-repeat: repeat;
         padding: 5px 20px 0 10px;
