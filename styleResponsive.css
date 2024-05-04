@@ -1,0 +1,107 @@
+
+@media screen and (max-width: 400px){   
+body{
+    color: var(--color-1);
+    background-color: var(--color-3);
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: 
+        "nav nav"
+        "head head"
+        "skills skills"
+        "presentation presentation"
+        "projects projects"
+        "footer footer";
+}
+    .ulNav{
+        z-index: 1;
+        text-shadow: black 5px 5px 2px;
+        grid-area: nav;
+        text-align: center;
+        width: 100%;
+        position: fixed;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        background-image: url(./img/imgNavResponsive.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 5px 20px 0 10px;
+    }
+    .btnNavSkills{
+        align-self: end;
+    }
+    .btnNavProyects{
+        align-self: end;
+    }
+
+
+    
+    .figWelcome{
+        width: 90%;
+        height: 30%;
+    }
+    .imgWelcome{
+        width: auto;
+        height: 140%;
+    }
+
+
+
+    
+    .articleSkills{
+        flex-direction: column;
+        column-gap: 40px;
+    }
+    .divSkills{
+        height: 50%;
+        width: 80%;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        transition: 1s;
+        background: rgba(0, 0, 0, 0.425);
+        border: 5px solid rgba(19, 15, 51, 0.788);
+        border-radius: 100% 0% 100% 0% / 8% 92% 8% 92% ;
+    }
+
+
+
+    .divFooter{
+        padding-left: 0;
+        height: 10%;
+        width: 80%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        grid-template-columns: 20% 30% 50% ;
+        grid-template-rows: 50% 50%;
+    }
+    .divFooter i{
+        grid-row: 1/2;
+        grid-column: 1;
+        font-size: 40px;
+    }
+    .divFooter h3{
+        grid-row: 1/2;
+        grid-column: 2;
+    }
+    .divFooter p{
+        grid-row: 1;
+        grid-column: 3;
+    }
+    .divFooter button{
+        grid-row: 2;
+        grid-column: 3;
+    }
+    .mailDivFooter p{
+        font-size: 12px;
+        margin-left: -20px;
+    }
+
+}
